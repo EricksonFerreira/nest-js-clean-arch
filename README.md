@@ -1,73 +1,40 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Projeto NestJS com Arquitetura Limpa
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+Este projeto é construído utilizando o framework NestJS, seguindo os princípios da Arquitetura Limpa para garantir que a aplicação seja bem organizada, escalável e de fácil manutenção.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## Descrição
 
-## Description
+Este projeto de Arquitetura Limpa com NestJS é projetado para servir como uma base robusta para a construção de aplicações em nível empresarial. Ele separa as preocupações em camadas independentes, permitindo testes mais fáceis, manutenção e aderência aos princípios SOLID.
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Recursos
 
-## Installation
+- **Arquitetura Limpa**: Organizado em camadas separadas para entidades, casos de uso, controladores e infraestrutura.
+- **Integração com TypeORM**: Utiliza o TypeORM para interações com o banco de dados, abstraído através de repositórios personalizados.
+- **Injeção de Dependência**: Aproveita a poderosa injeção de dependência do NestJS para manter o código modular e testável.
+- **Operações CRUD**: Inclui exemplos de operações de Criar, Ler, Atualizar e Deletar.
+- **Testes Unitários e E2E**: Vem com exemplos de testes unitários e de ponta a ponta.
+
+## Instalação
+
+Para começar com este projeto, clone o repositório e instale as dependências:
 
 ```bash
+$ git clone https://your-repository-url.git
+$ cd nest-js-clean-arch
 $ npm install
 ```
 
-## Running the app
+## Executando a Aplicação
+Você pode executar a aplicação em modo de desenvolvimento, modo de observação ou modo de produção da seguinte forma:
 
 ```bash
-# development
-$ npm run start
-
-# watch mode
 $ npm run start:dev
-
-# production mode
-$ npm run start:prod
 ```
+## Suporte e Contato
+Este é um projeto de código aberto e qualquer pessoa é bem-vinda para contribuir e fazer alterações. No entanto, apenas eu, o autor do projeto, posso dar forks. Se você tiver alguma dúvida ou sugestão, não hesite em entrar em contato através do meu website.
 
-## Test
+- Autor: Erickson Ferreira
+- Website: [https://ericksondes.tech/](https://ericksondes.tech/)
 
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+## Licença
+Este projeto é licenciado sob a Licença MIT, o que significa que você é livre para modificar, distribuir e usar o projeto como desejar, desde que esteja em conformidade com a licença. Para mais detalhes, consulte o arquivo `LICENSE` no repositório.
